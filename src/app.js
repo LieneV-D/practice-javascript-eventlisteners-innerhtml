@@ -25,3 +25,11 @@ let days = [
 let formattedDay = days[day];
 
 currentDate.innerHTML = `${formattedDay}, ${hours}:${minutes}`;
+
+document.getElementById("button-one").onclick = function () {
+  document.getElementById("main-text").style.color = "red";
+};
+
+document.getElementById("button-two").onclick = function () {
+  document.getElementById("main-text").style.color = "blue";
+};
